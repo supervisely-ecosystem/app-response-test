@@ -6,7 +6,7 @@
   ],
   "description": "app response test app",
   "docker_image": "supervisely/base-py-sdk:6",
-  "main_script": "src/my_main_script.py",
+  "main_script": "src/main.py",
   "gui_template": "src/gui.html",
   "task_location": "application_sessions",
   "isolate": true,
