@@ -16,6 +16,7 @@ def _send_data(out_msg, req_id, logger):
 @sly.timeit
 def merge(api: sly.Api, task_id, context, state, app_logger):
     req_id = context.get("request_id", "abc")
+    app_logger.info('Start command.', extra={ "context": context })
     _send_data({"a": "1", "b": 2}, req_id, app_logger)
 def main():
     sly.logger.info("Script arguments", extra={})
