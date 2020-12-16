@@ -1,0 +1,15 @@
+{
+  "name": "App response test",
+  "type": "app",
+  "categories": [
+    "development"
+  ],
+  "description": "app response test app",
+  "docker_image": "supervisely/base-py-sdk:6",
+  "main_script": "src/my_main_script.py",
+  "gui_template": "src/gui.html",
+  "task_location": "application_sessions",
+  "isolate": true,
+  "icon": "https://img.icons8.com/fluent/96/000000/source-code.png",
+  "icon_background": "#FFFFFF"
+}
